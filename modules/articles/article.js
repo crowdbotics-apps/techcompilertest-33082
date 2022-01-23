@@ -11,6 +11,10 @@ function Article({ route }) {
 
   return (
     <View>
+      <Text>
+        Techcompiler test application
+      </Text>
+    
       {article && (
         <View>
           <ImageBackground source={{ uri: article.image }} style={styles.image}>
