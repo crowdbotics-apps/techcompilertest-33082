@@ -14,18 +14,6 @@ function Article({ route }) {
       <Text>
         Techcompiler test application
       </Text>
-    
-      {article && (
-        <View>
-          <ImageBackground source={{ uri: article.image }} style={styles.image}>
-            <View style={styles.card}>
-              <Text style={styles.text}>{article.title}</Text>
-              <Text style={styles.author}>{article.author}</Text>
-            </View>
-          </ImageBackground>
-          <Text style={styles.body}>{article.body}</Text>
-        </View>
-      )}
     </View>
   )
 }
